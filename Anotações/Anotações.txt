@@ -7,8 +7,13 @@ Comandos do GIT
 
 2 - Os comandos que compõe o processo para adicionar as mudanças ao repositório remoto são:
 git init ## iniciar git
+
+##enviar arquivos##
 git add --all  ##Adiciona arquivos
-git commit -m 'mensagem' ##cria um repositorio
+git commit -m "mensagem" ##cria um repositorio
 git pull origin master --allow-unrelated-histories
 git push -u origin master
 git remote add origin https://github.com/MayconAzevedo/php.git  ##adiciona um servidor remoto ao seu git
+
+##baixar arquivos do git##
+git pull origin master ##baixar suas alterações/atualizações do git para o seu pc
